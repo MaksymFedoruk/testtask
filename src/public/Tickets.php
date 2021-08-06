@@ -180,13 +180,11 @@ public function putOnCSV(array $arr,array $arr1){
     fputcsv($fp,$arr);
               foreach ($arr1 as $fields){
                   fputcsv($fp,$fields,',');
-                  var_dump($fields);
               }
             fclose($fp);
 }
 public function getHeaderForCSV($tickets) :array{
     foreach ($tickets as $elemen){
-        var_dump($elemen);
         foreach ($elemen as $key=>$elem ){
             $strKeys = $strKeys .','. $key;
         }
