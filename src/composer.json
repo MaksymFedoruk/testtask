@@ -1,0 +1,16 @@
+{
+  "name": "vendor_name/testproject",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "maksym",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^7.0",
+    "ext-json": "*"
+  }
+}

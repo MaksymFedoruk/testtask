@@ -1,0 +1,4 @@
+ticket_id,description,status,priority,agent_id,contact_id,group_id,organization_id,group_name,agent_name,agent_email,contact_name,contact_email,organization_name,comments
+2,1,open,low,1900530410993,385382542198,360009665618,1900009734313,Поддержка,2,2@i.com,Клиент,customer@example.com,test2,1;1;
+3,111,solved,low,385382921678,385382542198,1900000277953,1900009734313,support,1,1@1.com,Клиент,customer@example.com,test2,111;comment.;
+4,3,open,normal,385382921678,385421655498,1900000277953,1900009734313,support,1,1@1.com,3,3@3.com,test2,3;1;comment1111.;
